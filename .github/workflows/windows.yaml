@@ -75,7 +75,7 @@ jobs:
           rustup target install ${{ matrix.target }}
       - name: Run a full build
         run: |
-          cargo build --locked --release --target ${{ matrix.target }}
+          cargo build --release --target ${{ matrix.target }}
       - name: Create MSI installer
         run: |
           cargo install cargo-wix
