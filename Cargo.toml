@@ -13,7 +13,7 @@ windows-interface = { version = "0.51" }
 windows-implement = { version = "0.51" }
 
 [workspace.dependencies.windows]
-version = "0.52"
+version = "0.51"
 features = [
     "implement",
     "Win32_System_Com",
